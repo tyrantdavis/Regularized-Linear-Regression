@@ -22,6 +22,7 @@ The goal is to use the house valuation models on datasets beyond those in the Ki
 **Data Sources:**
 
 - data/BostonHousing.csv
+- [StatLib Archive](https://lib.stat.cmu.edu/datasets/boston)
 - [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/)
 
 ## Project Goals
