@@ -38,16 +38,31 @@ In this initiative, the viewpoint will be that of a real estate analyst. The ana
 
 #### Why use a linear regression algorithm to produce a real estate price estimator?
 A: The purpose of the model is to predict the price at which a house with particular attributes
-will sell. This is a regression type of outcome. While other algorithms can also be used to
-produce a regression outcome, linear regression is simple, relatively easy to implement, and
-can produce a good result in many cases.
+will sell. This is a regression type of outcome. While other algorithms can also produce a regression outcome, linear regression is simple, relatively easy to implement, and can produce a good result in many cases.
 
 The house's median value(**Target**) will be the output (the dependent variable). The model will determine (predict) the
 price through multiple inputs (independent variables). This seems like an appropriate task for a
 regression model.
 
 ## Data
-An anonymized dataset that can be used to train the machine-learning model has been found. It is a CSV file containing more than 506 real estate transactions conducted in Boston, Massachusetts. 
+An anonymized dataset that can be used to train the machine-learning model has been found. It is a CSV file containing more than 506 real estate transactions in Boston, Massachusetts. 
 
 
+## Conclusions
 
+- Which algorithm performs best?
+    - **Elastic regression** had the lowest MSE thus it performed the best in this situation, but only slightly better than a linear simple regression.
+
+- Which attribute has the greatest correlation to price?
+    - **RM** - the average number of rooms per house has the strongest positive correlation
+      
+- Which attribute has the weakest correlation to price?
+    - **CHAS** - land bounds the Charles River
+
+* What emergent patterns seem to exist? 
+    * The houses in the area are considerably old.
+    * Most houses are near employment centers.  
+    * NO2 levels seem to vary, but the majority are generally low.  
+    * The distribution of the number of rooms appears to be approximately symmetrical. 
+    * The average number of rooms in a hose is six. Max is approximately 9 minimum about three and one-half
+    * Generally speaking, the more rooms a house has the higher the median value
