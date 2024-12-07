@@ -37,8 +37,7 @@ In this initiative, the viewpoint will be that of a real estate analyst. The ana
 
 
 #### Why use a linear regression algorithm to produce a real estate price estimator?
-A: The purpose of the model is to predict the price at which a house with particular attributes
-will sell. This is a regression type of outcome. While other algorithms can also produce a regression outcome, linear regression is simple, relatively easy to implement, and can produce a good result in many cases.
+A: The purpose of the model is to predict the price at which a house with particular attributes will sell. This is a regression type of outcome. While other algorithms can also produce a regression outcome, linear regression is simple, relatively easy to implement, and can produce a good result in many cases.
 
 The house's median value(**Target**) will be the output (the dependent variable). The model will determine (predict) the
 price through multiple inputs (independent variables). This seems like an appropriate task for a
