@@ -1,5 +1,7 @@
 # Regularized Linear Regression
 
+## [Demo](https://nbviewer.org/github/tyrantdavis/Regularized-Linear-Regression/blob/main/LinearRegression-Boston.ipynb)
+
 ## Introduction
 This project aims to extend the use of the simple linear regression house valuation model to analyze housing data from Boston, Massachusetts, particularly around various attributes for the homes observed in the area and their prices using multiple algorithms.
 
